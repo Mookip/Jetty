@@ -1,0 +1,15 @@
+<form [formGroup]="form" (ngSubmit)="getEmployeeAccount()">
+    <div>
+        <label for="id">
+            Employee Id
+        </label>
+        <input type="number" formControlName="id">
+    </div>
+
+    <button class="button" type="submit">Submit</button>
+</form>
+
+<p>First Name: {{employeeAccount?.firstName}}</p>
+<p>Last Name: {{employeeAccount?.lastName}}</p>
+<p>Street Address: {{employeeAccount?.streetAddress}}</p>
+<app-my-account-error-container *ngIf="errors"></app-my-account-error-container>

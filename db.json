@@ -1,0 +1,67 @@
+{
+  "users": [],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Peter",
+      "lastName": "Quill",
+      "age": 20
+    },
+    {
+      "id": 2,
+      "firstName": "Doctor",
+      "lastName": "Strange",
+      "age": 21
+    },
+    {
+      "id": 3,
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "age": 23
+    },
+    {
+      "id": 4,
+      "firstName": "Tony",
+      "lastName": "Stark",
+      "age": 24
+    },
+    {
+      "id": 5,
+      "firstName": "Bruce",
+      "lastName": "Banner",
+      "age": 25
+    }
+  ],
+  "addresses": [
+    {
+      "id": 100,
+      "employeeId": 1,
+      "streetAddress": "123 Fakerton",
+      "city": "Big Unreal City"
+    },
+    {
+      "id": 101,
+      "employeeId": 2,
+      "streetAddress": "632 The Not Real Road",
+      "city": "Not Real Zone"
+    },
+    {
+      "id": 102,
+      "employeeId": 3,
+      "streetAddress": "111 Empire Building",
+      "city": "New York"
+    },
+    {
+      "id": 103,
+      "employeeId": 4,
+      "streetAddress": "10880 Malibu Point",
+      "city": "Los Angeles"
+    },
+    {
+      "id": 104,
+      "employeeId": 5,
+      "streetAddress": "126 Underground",
+      "city": "Rio de Janeiro"
+    }
+  ]
+}
